@@ -54,6 +54,7 @@ module OmniAuth
           gender: user_info.gender,
           image: user_info.picture,
           phone: user_info.phone_number,
+          trusona_id: user_info.trusona_id,
           urls: { website: user_info.website }
         }
       end
